@@ -20,4 +20,4 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
-        tag: v1.2.3
+        tag: v1.2.4
