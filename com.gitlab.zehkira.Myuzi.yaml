@@ -15,9 +15,10 @@ modules:
   - name: myuzi
     buildsystem: simple
     build-commands:
+      - cd source
       - python setup.py install --prefix=${FLATPAK_DEST}
       - make prefix=${FLATPAK_DEST} install
     sources:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
-        tag: v1.4.0
+        tag: v1.4.1
