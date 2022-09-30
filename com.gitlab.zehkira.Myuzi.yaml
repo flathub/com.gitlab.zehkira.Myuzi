@@ -15,7 +15,7 @@ modules:
   - name: myuzi
     buildsystem: simple
     build-commands:
-      - cd source
+      - mv source/* .
       - python setup.py install --prefix=${FLATPAK_DEST}
       - make prefix=${FLATPAK_DEST} install
     sources:
