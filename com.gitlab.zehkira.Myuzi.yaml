@@ -1,6 +1,6 @@
 app-id: com.gitlab.zehkira.Myuzi
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '43'
 sdk: org.gnome.Sdk
 command: myuzi
 finish-args:
@@ -21,4 +21,4 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
-        tag: v1.5.1
+        tag: v1.5.2
