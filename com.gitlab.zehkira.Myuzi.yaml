@@ -1,6 +1,6 @@
 app-id: com.gitlab.zehkira.Myuzi
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '43'
 sdk: org.gnome.Sdk
 command: myuzi
 finish-args:
@@ -16,9 +16,9 @@ modules:
     buildsystem: simple
     build-commands:
       - mv source/* .
-      - python setup.py install --prefix=${FLATPAK_DEST}
+      - pip install --prefix=${FLATPAK_DEST} .
       - make prefix=${FLATPAK_DEST} install
     sources:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
-        tag: v1.4.1
+        tag: v1.5.2
