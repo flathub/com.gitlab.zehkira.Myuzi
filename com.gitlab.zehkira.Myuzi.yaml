@@ -16,7 +16,7 @@ modules:
     buildsystem: simple
     build-commands:
       - mv source/* .
-      - python setup.py install --prefix=${FLATPAK_DEST}
+      - pip install --prefix=${FLATPAK_DEST} .
       - make prefix=${FLATPAK_DEST} install
     sources:
       - type: git
