@@ -22,4 +22,4 @@ modules:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
         tag: v1.12.0
-        commit: 310a40390e6cc83ca2bd9018a5e2b6f91d8b7f8d
+        commit: fbc0b428587165b54428c6a043be56c5a9638f66
