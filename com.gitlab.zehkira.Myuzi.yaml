@@ -21,5 +21,5 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
-        tag: v1.12.0
-        commit: fbc0b428587165b54428c6a043be56c5a9638f66
+        tag: v1.12.1
+        commit: 95ae71faa4ba13282fde6c58e35c2657d1c3eef4
