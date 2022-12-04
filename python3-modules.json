@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/6f/de/5be2e3eed8426f871b170663333a0f627fc2924cc386cd41be065e7ea870/urllib3-1.26.12-py2.py3-none-any.whl",
-                    "sha256": "b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997"
+                    "url": "https://files.pythonhosted.org/packages/65/0c/cc6644eaa594585e5875f46f3c83ee8762b647b51fc5b0fb253a242df2dc/urllib3-1.26.13-py2.py3-none-any.whl",
+                    "sha256": "47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc"
                 },
                 {
                     "type": "file",
@@ -84,8 +84,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/52/0d/6cc95a83f6961a1ca041798d222240890af79b381e97eda3b9b538dba16f/pycryptodomex-3.15.0.tar.gz",
-                    "sha256": "7341f1bb2dadb0d1a0047f34c3a58208a92423cdbd3244d998e4b28df5eac0ed"
+                    "url": "https://files.pythonhosted.org/packages/5d/22/575c7dd7c86843e07a791cfa2143e7292d6b380f5a7cce966a49b9d6c9f4/pycryptodomex-3.16.0.tar.gz",
+                    "sha256": "e9ba9d8ed638733c9e95664470b71d624a6def149e2db6cc52c1aca5a6a2df1d"
                 },
                 {
                     "type": "file",
@@ -104,8 +104,22 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/2b/8c/6382d335662361fe06bea1ca96a189982cc050c2f9946dcd320b8c26a833/yt_dlp-2022.10.4-py2.py3-none-any.whl",
-                    "sha256": "cc21d91048b275bda7018bdc3103374882261ccf29720206d61b10e168c8b719"
+                    "url": "https://files.pythonhosted.org/packages/b6/7a/4f1067904adad79b5f3ba8c81f879975b56515764cb42e241cf3528cb017/yt_dlp-2022.11.11-py2.py3-none-any.whl",
+                    "sha256": "8bb7bd9ab2e6ecf4db7627e9151ce00572ae7ee24dedc78f611e7467b0ccd7d9"
+                }
+            ]
+        },
+        {
+            "name": "python3-nuitka",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"nuitka\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/98/53/091e3dbc99977b213970b64d7737f4034294c81ba919a88088ad55f7c8e3/Nuitka-1.2.4.tar.gz",
+                    "sha256": "3b750e2a2a46e959c890582ccbc5df760b8800007ff603e12fd9292da31f3740"
                 }
             ]
         }
