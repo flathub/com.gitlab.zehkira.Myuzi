@@ -9,6 +9,7 @@ finish-args:
   - --socket=fallback-x11
   - --share=ipc
   - --share=network
+  - --filesystem=xdg-music/myuzi:create
   - --device=dri
 modules:
   - python3-modules.json
@@ -22,3 +23,5 @@ modules:
         url: https://gitlab.com/zehkira/myuzi.git
         tag: v1.13.0
         commit: 755c855b7807912536a3c1b4218ac3e9e2bec45a
+    cleanup-commands:
+      - pip uninstall -y nuitka
