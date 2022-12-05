@@ -9,6 +9,7 @@ finish-args:
   - --socket=fallback-x11
   - --share=ipc
   - --share=network
+  - --filesystem=xdg-music/myuzi:create
   - --device=dri
 modules:
   - python3-modules.json
@@ -16,10 +17,11 @@ modules:
     buildsystem: simple
     build-commands:
       - mv source/* .
-      - pip install --prefix=${FLATPAK_DEST} .
       - make prefix=${FLATPAK_DEST} install
     sources:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
-        tag: v1.12.2
-        commit: 5ef5e1db3b51ad89b441792d2c3605fb741be4dd
+        tag: v1.13.2
+        commit: d8c9a5a9b758480e0a2dc826f28b7b87a4f9899c
+    cleanup-commands:
+      - pip3 uninstall -y nuitka
