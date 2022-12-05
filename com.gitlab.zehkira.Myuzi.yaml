@@ -24,4 +24,4 @@ modules:
         tag: v1.13.0
         commit: 755c855b7807912536a3c1b4218ac3e9e2bec45a
     cleanup-commands:
-      - pip uninstall -y nuitka
+      - pip3 uninstall -y nuitka
