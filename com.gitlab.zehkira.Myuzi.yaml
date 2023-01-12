@@ -21,7 +21,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/zehkira/myuzi.git
-        tag: v1.13.3
-        commit: 79e931379b37f217dedaee52ca0294c49961bd18
+        tag: v1.14.0
+        commit: 2e50e8b008ca2c987ea0f22f3cc7e8b14e9bb091
     cleanup-commands:
       - pip3 uninstall -y nuitka
